@@ -1,0 +1,32 @@
+<% include ../partials/header %>
+
+
+
+
+<div class="container">
+  <header class="jumbotron">
+    <h1><i class="fa fa-tree" aria-hidden="true"></i> Campgrounds</h1>
+    <p>View our hand-picked campgrounds from all over the world</p>
+    <p>
+      <a href="/campgrounds/new" class="btn btn-primary btn-md">Add New Campground</a>
+    </p>
+  </header>
+  <div class="row text-center">
+      <% campgrounds.forEach((campground) => { %>
+      <div class="col-sm-6 col-md-4">
+
+        <div class="card mt-4">
+          <img class="card-img-top" src="<%= campground.image %>" >
+          <div class="card-body">
+            <h4 class="card-title"><%= campground.name %></h4>
+            <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary btn-md">More info</a>
+          </div>
+        </div>
+
+      </div>
+      <% }) %>
+  </div>
+
+</div>
+
+<% include ../partials/footer %>
