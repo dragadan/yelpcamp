@@ -13,7 +13,7 @@ var data = [{
     description: "magna multos sint ipsum ipsum summis magna illum ipsum quae",
   },
   {
-    name: "Mountain Goat",
+    name: "Mountain Goatt",
     image: "https://images.unsplash.com/photo-1496545672447-f699b503d270?auto=format&fit=crop&w=751&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
     description: "tamen minim sunt aliqua quorum culpa culpa quid duis enim labore illum minim sint quis",
   },
